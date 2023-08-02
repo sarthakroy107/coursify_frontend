@@ -23,6 +23,7 @@ const Home = () => {
     setTagDetails(tags?.data?.data)
     setTagIds([])
     setStudentArray([])
+    setTagIndex([]);
   }
 
   const studentData = async () => {
